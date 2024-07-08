@@ -11,13 +11,13 @@ para API Restfull na linguagem Java, utilizando o JakarataEE versão 10.
 
 #### WADL da API.
 
-```http
+```
   GET /filmes-series-1.0/resources/application.wadl
 ```
 
 #### Testando a API
 
-```http
+```
   GET /filmes-series-1.0/resources/api
 ```
 
@@ -28,7 +28,7 @@ para API Restfull na linguagem Java, utilizando o JakarataEE versão 10.
 
 #### Retorna todos os itens cadastrados
 
-```http
+```
   GET /filmes-series-1.0/resources/api/filmes
 ```
 
@@ -49,7 +49,7 @@ para API Restfull na linguagem Java, utilizando o JakarataEE versão 10.
 
 #### Retorna um filme selecionado
 
-```http
+```
   GET /filmes-series-1.0/resources/api/filme/{id}
 ```
 
@@ -60,7 +60,7 @@ para API Restfull na linguagem Java, utilizando o JakarataEE versão 10.
 
 #### Adiciona um filme
 
-```http
+```
   POST /filmes-series-1.0/resources/api/filme
 ```
 
@@ -81,7 +81,7 @@ para API Restfull na linguagem Java, utilizando o JakarataEE versão 10.
 
 #### Atualiza um filme
 
-```http
+```
   PUT /filmes-series-1.0/resources/api/filme/{id}
 ```
 
@@ -92,7 +92,7 @@ para API Restfull na linguagem Java, utilizando o JakarataEE versão 10.
 
 #### Deleta um filme
 
-```http
+```
   DELETE /filmes-series-1.0/resources/api/filme/{id}
 ```
 
